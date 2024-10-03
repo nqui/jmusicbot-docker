@@ -10,7 +10,7 @@ A simple Docker container for [JMusicBot](https://github.com/jagrosh/MusicBot). 
   > Refer to the documentaion on how to [configure the bot](https://jmusicbot.com/setup/#3-configure-the-bot)
 - You can specify a JMusicBot version using the environment variable `BOT_VERSION`. By default the latest version will be downloaded so you don't have to include the value if you want to use latest.
   > The version numbers you can use correspond to the [releases](https://github.com/jagrosh/MusicBot/releases)
-- You can specify a JMusicBot fork using the environment variable `BOT_REPO_FORK`. By default [jagrosh/MusicBot](https://github.com/jagrosh/MusicBot) is used.
+- You can specify a JMusicBot fork using the environment variable `BOT_REPO_FORK`. By default `jagrosh/MusicBot` is used.
   > The format of this should be `user/repo`. 
 
 ### Docker examples
