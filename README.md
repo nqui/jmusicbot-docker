@@ -20,7 +20,7 @@ docker run -dit \
   --name=jmusicbot \
   -v /your/path/to/config:/config \
   --restart=unless-stopped \
-  ghcr.io/yojoshb/jmusicbot-docker
+  ghcr.io/nqui/jmusicbot-docker
 ```
 
 - Using docker compose
