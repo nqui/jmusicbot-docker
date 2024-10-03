@@ -26,10 +26,9 @@ docker run -dit \
 - Using docker compose
 ```bash
 ---
-version: "3"
 services:
   jmusicbot:
-    image: ghcr.io/yojoshb/jmusicbot-docker
+    image: ghcr.io/nqui/jmusicbot-docker
     container_name: jmusicbot
     environment:
       - BOT_VERSION=0.3.9 # You can omit this environment variable if you just want to run the latest version
