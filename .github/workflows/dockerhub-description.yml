@@ -17,6 +17,6 @@ jobs:
       with:
         username: ${{ secrets.DOCKER_U }}
         password: ${{ secrets.DOCKER_P }}
-        repository: yojoshb/jmusicbot
+        repository: nqui/jmusicbot
         short-description: ${{ github.event.repository.description }}
         enable-url-completion: true
