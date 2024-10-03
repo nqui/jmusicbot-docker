@@ -3,7 +3,7 @@
 ![Supports amd64 Architecture](https://img.shields.io/badge/amd64-yes-blueviolet.svg?style=for-the-badge)
 ![Supports arm64 Architecture](https://img.shields.io/badge/arm64-yes-blueviolet.svg?style=for-the-badge)
 
-A simple Docker container for [JMusicBot](https://github.com/jagrosh/MusicBot). The container will start up, then download JMusicBot from the projects repository and run it.
+A simple Docker container for [JMusicBot](https://github.com/jagrosh/MusicBot). The container will start up, then download JMusicBot from the repository (or a fork) and run it.
 
 ## Usage
 - Place your **config.txt**, **Playlists** folder, and **serversettings.json** file (if you have one) in `/your/path/to/config`. This directory will be shared with the container.
